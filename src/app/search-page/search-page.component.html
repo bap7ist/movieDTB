@@ -1,0 +1,17 @@
+<section class="search-page">
+    <div class="header">
+        <div class="logo-container">
+            <h1>RrX |</h1>
+        </div>
+        <div class="button-container">
+            <input type="text">
+            <button><mat-icon>search</mat-icon></button>
+        </div>
+    </div>
+
+    <div class="movies-list-container">
+        <div *ngFor="let movie of movies" class="movie-card">
+            <h1>{{ movie.title }}</h1>
+        </div>
+    </div>
+</section>

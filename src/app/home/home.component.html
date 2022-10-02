@@ -1,0 +1,21 @@
+<section class="home-container">
+    <div class="header">
+        <div class="header-end">
+            <h2>à propos</h2>
+            <h2>Contact</h2>
+            <button>Hello</button>
+        </div>
+    </div>
+    <div class="title-container">
+        <h1 class="title">RrX | </h1>
+        <p><small>The</small> Movie Ratings App</p>
+    </div>
+    <img id="background-image" [src]="backgroundImg" alt="">
+    <form [formGroup]="searchForm" class="search-container">
+        <input formControlName="search" class="search-input" type="text">
+        <button (click)="goToSearch()" class="search-button">
+            <mat-icon>search</mat-icon>
+        </button>
+    </form>
+
+</section>

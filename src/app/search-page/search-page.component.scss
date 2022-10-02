@@ -1,0 +1,65 @@
+.search-page {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    color: black;
+
+    .header {
+        position: fixed;
+        margin-left: 1%;
+        top: 20px;
+        width: 98%;
+        border-radius: 60px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 6px, rgba(0, 0, 0, 0.09) 0px 3px 6px;
+        .logo-container {
+            margin-left: 4rem;
+            color: black;
+            font-size: 1.5rem;
+        }
+        .button-container {
+            margin-right: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            input {
+                height: 40px;
+                width: 200px;
+                border: none;
+                border-radius: 40px;
+                background-color: #ededed;
+                padding-inline-start: 2rem;
+                color: white;
+                outline: none;
+                box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+            }
+            button {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: #6CB4EE;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                mat-icon {
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+    .movies-list-container {
+        width: 100%;
+        .movie-card {
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
